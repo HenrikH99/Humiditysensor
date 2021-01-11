@@ -3,10 +3,9 @@
 #include <ESP8266_Lib.h>
 #include <BlynkSimpleShieldEsp8266.h>
 
-// You should get Auth Token in the Blynk App.
-char auth[] = "n-6M_g30TddX8H026HvuegCQ2cXuRssg";
-char ssid[] = "AirTies_Air4920_3N8C"; //You can replace the wifi name to your wifi
-char pass[] = "fyphcd8797";  //Type password of your wifi.
+char auth[] = "*************************"; // You should get Auth Token in the Blynk App.
+char ssid[] = "***********"; //You can replace the wifi name to your wifi
+char pass[] = "********";  //Type password of your wifi.
 
 #include <SoftwareSerial.h>
 SoftwareSerial EspSerial(3, 2); // RX, TX
